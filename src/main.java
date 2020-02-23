@@ -10,7 +10,7 @@ public class main {
         String nameOfCentral = input.nextLine();
         Central central = new Central(nameOfCentral);
 
-        while (true) {
+        while (true) { // hoofdloop
             System.out.println("Choose one of the following: add / search / delete / test / stop");
             String inputChoice = input.nextLine();
 
